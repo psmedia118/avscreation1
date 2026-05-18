@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - AV'S Creation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Poppins:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">AV'S</span>
+                <span class="logo-sub">CREATION</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="investment.html">Investment</a></li>
+                <li><a href="tourism.html">Tourism</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <a href="contact.html" class="nav-btn">Get Started</a>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+            <p class="section-tag">Get In Touch</p>
+            <h1>Contact <em>Us</em></h1>
+            <p>Let's discuss your investment goals or plan your dream trip.</p>
+        </div>
+        <div class="breadcrumb">
+            <a href="index.html">Home</a>
+            <span>/</span>
+            <span>Contact</span>
+        </div>
+    </section>
+
+    <!-- CONTACT CARDS -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Call Us</h3>
+                    <p><a href="tel:+91XXXXXXXXXX">+91 XXXXX XXXXX</a></p>
+                    <p>Mon–Sat: 9AM – 7PM</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp</h3>
+                    <p><a href="https://wa.me/+91XXXXXXXXXX">+91 XXXXX XXXXX</a></p>
+                    <p>Quick responses guaranteed</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Us</h3>
+                    <p><a href="mailto:info@avscreation.com">info@avscreation.com</a></p>
+                    <p>We reply within 24 hours</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Visit Us</h3>
+                    <p>Your Address</p>
+                    <p>City, State, India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form-wrap">
+                    <div class="section-header left" style="margin-bottom: 2.5rem;">
+                        <p class="section-tag">Send Message</p>
+                        <h2 class="section-title">Get a Free <em>Consultation</em></h2>
+                        <p class="section-desc" style="margin: 0;">Fill the form and our team will contact you within 24 hours.</p>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Full Name *</label>
+                                <input type="text" placeholder="Your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Phone Number *</label>
+                                <input type="tel" placeholder="+91 XXXXX XXXXX" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address *</label>
+                            <input type="email" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label>I'm Interested In *</label>
+                            <select required>
+                                <option value="" disabled selected>Select your interest...</option>
+                                <optgroup label="Investment Services">
+                                    <option>Stock Market Advisory</option>
+                                    <option>Mutual Funds Planning</option>
+                                    <option>Business Funding</option>
+                                    <option>Portfolio Management</option>
+                                </optgroup>
+                                <optgroup label="Tourism Packages">
+                                    <option>Europe Tour Package</option>
+                                    <option>Southeast Asia Package</option>
+                                    <option>Middle East Package</option>
+                                    <option>USA & Canada Package</option>
+                                    <option>Custom Tour Package</option>
+                                </optgroup>
+                                <option>Both Investment & Tourism</option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Investment Budget / Tour Budget</label>
+                                <select>
+                                    <option value="" disabled selected>Select budget range...</option>
+                                    <option>Under ₹50,000</option>
+                                    <option>₹50,000 – ₹1,00,000</option>
+                                    <option>₹1,00,000 – ₹5,00,000</option>
+                                    <option>₹5,00,000 – ₹10,00,000</option>
+                                    <option>Above ₹10,00,000</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Preferred Contact Time</label>
+                                <select>
+                                    <option value="" disabled selected>Select time...</option>
+                                    <option>Morning (9AM – 12PM)</option>
+                                    <option>Afternoon (12PM – 4PM)</option>
+                                    <option>Evening (4PM – 7PM)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Message (Optional)</label>
+                            <textarea rows="4" placeholder="Tell us more about your requirements..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                        <p class="form-note">* We'll contact you within 24 hours. Your information is 100% secure.</p>
+                    </form>
+                    <div class="form-success" id="formSuccess">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Message Sent!</h3>
+                        <p>Thank you! Our team will contact you within 24 hours.</p>
+                    </div>
+                </div>
+
+                <!-- CONTACT INFO -->
+                <div class="contact-info-wrap">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <p>Your Business Address</p>
+                        <p>City, State, India</p>
+                        <a href="https://maps.google.com" target="_blank" class="btn-outline-gold" style="margin-top: 1rem; display: inline-flex;">
+                            <i class="fas fa-directions"></i> Get Directions
+                        </a>
+                    </div>
+                    <div class="hours-card">
+                        <h3><i class="fas fa-clock"></i> Working Hours</h3>
+                        <div class="hours-list">
+                            <div class="hours-item">
+                                <span>Monday</span>
+                                <span>9:00 AM – 7:00 PM</span>
+                            </div>
+                            <div class="hours-item">
+                                <span>Tuesday</span>
+                                <span>9:00 AM – 7:00 PM</span>
+                            </div>
+                            <div class="hours-item">
+                                <span>Wednesday</span>
+                                <span>9:00 AM – 7:00 PM</span>
+                            </div>
+                            <div class="hours-item">
+                                <span>Thursday</span>
+                                <span>9:00 AM – 7:00 PM</span>
+                            </div>
+                            <div class="hours-item">
+                                <span>Friday</span>
+                                <span>9:00 AM – 7:00 PM</span>
+                            </div>
+                            <div class="hours-item">
+                                <span>Saturday</span>
+                                <span>9:00 AM – 5:00 PM</span>
+                            </div>
+                            <div class="hours-item closed">
+                                <span>Sunday</span>
+                                <span>Closed</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-card">
+                        <h3>Follow Us</h3>
+                        <div class="social-links large">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-text">AV'S</span>
+                        <span class="logo-sub">CREATION</span>
+                    </a>
+                    <p>Your trusted partner for smart investments and luxury international travel.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="investment.html">Investment</a></li>
+                        <li><a href="tourism.html">Tourism</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="investment.html">Stock Advisory</a></li>
+                        <li><a href="investment.html">Mutual Funds</a></li>
+                        <li><a href="investment.html">Business Funding</a></li>
+                        <li><a href="tourism.html">Europe Tours</a></li>
+                        <li><a href="tourism.html">Asia Tours</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Your Address, City, India</p>
+                        <p><i class="fas fa-phone"></i> +91 XXXXX XXXXX</p>
+                        <p><i class="fab fa-whatsapp"></i> +91 XXXXX XXXXX</p>
+                        <p><i class="fas fa-envelope"></i> info@avscreation.com</p>
+                        <p><i class="fas fa-clock"></i> Mon–Sat: 9AM – 7PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 AV'S Creation. All Rights Reserved. | SEBI Registered Investment Advisor</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING BUTTONS -->
+    <div class="whatsapp-float">
+        <span class="whatsapp-label">Chat on WhatsApp</span>
+        <a href="https://wa.me/+91XXXXXXXXXX" target="_blank" class="whatsapp-btn">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <div class="call-float">
+        <a href="tel:+91XXXXXXXXXX" class="call-btn">
+            <i class="fas fa-phone"></i>
+        </a>
+        <span class="call-label">Call Us Now</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
